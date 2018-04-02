@@ -76,7 +76,7 @@ class ML_Helpers(object):
             end = time.time()
             
             print('Score: {}'.format(model['best_score']))
-            print('Time: {} seconds'.format(end-start), '\n')
+            print('Time: {} secs'.format(end-start), '\n')
             
             if model['best_score'] > best_score:
                 best_score, best_model = model['best_score'], model
